@@ -1,11 +1,11 @@
 {
   "compilerOptions": {
   "module": "commonjs",
-  "target": "es7",
+  "target": "es2017",
   "sourceMap": true,
   "declaration": true,
   "types": ["node"],
   "removeComments": false
   },
-  "include": ["src/*/*.ts"]
+  "include": ["src/*/*.ts", "src/*.ts"]
 }
