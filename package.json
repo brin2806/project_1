@@ -1,0 +1,19 @@
+{
+  "name": "project_1",
+  "version": "1.0.0",
+  "description": "crpto project",
+  "main": "index.js",
+  "scripts": {
+    "lint": "tslint -c tslint.json 'src/*/.ts'",
+    "compile": "tsc -d --alwaysStrict --outDir lib",
+    "build": "npm run lint && npm run compile",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brin",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^9.6.2",
+    "tslint": "^5.9.1",
+    "typescript": "^2.8.1"
+  }
+}
